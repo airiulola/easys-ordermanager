@@ -1,5 +1,9 @@
 # Changelog
 
+
+# 1.4.14 (2020-10-16)
+Update package to version django-model-utils>=4.0.0,<5.0
+
 # 1.4.13 (2020-10-06)
 Fix serializer v2 choice fields
 
