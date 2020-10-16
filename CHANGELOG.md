@@ -1,6 +1,9 @@
 # Changelog
 
 
+# 1.4.15 (2020-10-16)
+Update package to version django-model-utils>=3.1.2,<5.0 - for backwards compatibility
+
 # 1.4.14 (2020-10-16)
 Update package to version django-model-utils>=4.0.0,<5.0
 
