@@ -1,5 +1,7 @@
 # Changelog
 
+# 1.4.17 (2020-10-16)
+Update package to version phonenumbers>=7.0.6,<8.12.12
 
 # 1.4.15 (2020-10-16)
 Update package to version django-model-utils>=3.1.2,<5.0 - for backwards compatibility
