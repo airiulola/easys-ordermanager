@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.4.18 (2020-10-16)
+Update maximum required version of django-countries>=4.4,<6.1.4 and django-internationalflavor>=0.3.1,<0.5
+
 # 1.4.17 (2020-10-16)
 Update package to version phonenumbers>=7.0.6,<8.12.12
 
