@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.4.19 (2020-10-23)
+Update maximum supported version of djangorestframework>=3.7.7,<3.13
+
 # 1.4.18 (2020-10-16)
 Update maximum required version of django-countries>=4.4,<6.1.4 and django-internationalflavor>=0.3.1,<0.5
 
