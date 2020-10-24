@@ -9,17 +9,17 @@ python:
   - 3.8
 
 env:
-  - DJANGO_VERSION=1.11.28
-  - DJANGO_VERSION=2.1.15
-  - DJANGO_VERSION=2.2.10
+  - PRE_REQUIREMENTS_FILE=travis-requirements/pre-requirements-django111.txt
+  - PRE_REQUIREMENTS_FILE=travis-requirements/pre-requirements-django21.txt
+  - PRE_REQUIREMENTS_FILE=travis-requirements/pre-requirements-django22.txt
 
 matrix:
   include:
     - python: 3.6
-      env: DJANGO_VERSION=2.2.10 DEPLOY=true
+      env: PRE_REQUIREMENTS_FILE=travis-requirements/pre-requirements-django22.txt DEPLOY=true
 
 install:
-  - pip install -q Django==$DJANGO_VERSION
+  - pip install -r $PRE_REQUIREMENTS_FILE
   - pip install .
   - pip install -r requirements-test.txt
 
