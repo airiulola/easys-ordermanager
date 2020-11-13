@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.4.20 (2020-11-13)
+Update maximum supported version of django-phonenumber-field>=3.0.1,<5.1
+
 # 1.4.19 (2020-10-23)
 Update maximum supported version of djangorestframework>=3.7.7,<3.13
 
