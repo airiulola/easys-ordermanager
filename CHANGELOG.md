@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.4.22 (2020-11-16)
+Modernize Docker env, Update max supported versions and min requirements of some packages
+
 # 1.4.21 (2020-11-13)
 Update maximum supported version of django-phonenumber-field>=3.0.1,<5.1
 
