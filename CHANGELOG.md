@@ -1,7 +1,10 @@
 # Changelog
 
 # 1.4.22 (2020-11-16)
-Modernize Docker env, Update max supported versions and min requirements of some packages
+* Modernize Docker env, Update max supported versions and min requirements of some packages
+* Split package and test dependencies
+* Move package dependencies to setup.py
+* Restructure travis env
 
 # 1.4.21 (2020-11-13)
 Update maximum supported version of django-phonenumber-field>=3.0.1,<5.1
@@ -81,7 +84,7 @@ Make sure Django 3 is not installed until further support
 
 ## 1.2.2 (2020-03-03)
 Add proper dependencies to avoid unwanted failure with possible upgrades when installed freshly.
-See requirements.txt for dependencies
+See setup.py for dependencies
 
 ## 1.2.1 (2020-02-27)
 Add unique validation on `opening_hours` list of values of `OrderLineListingSerializer`. 

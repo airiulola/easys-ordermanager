@@ -19,13 +19,6 @@ def changelog():
         return ''
 
 
-def requirements():
-    try:
-        return open(os.path.join(os.path.dirname(__file__), 'requirements.txt')).readlines()
-    except IOError:
-        return []
-
-
 setup(
     name=easys_ordermanager.__title__,
     packages=find_packages(),
@@ -35,7 +28,16 @@ setup(
     author_email=easys_ordermanager.__author_email__,
     long_description=long_description() + '\n\n' + changelog(),
     long_description_content_type='text/markdown',
-    install_requires=requirements(),
+    install_requires=[
+        'django>=2.2,<4.0',
+        'django-countries>=6.0,<7.0',
+        'django-iban>=0.3.1,<0.4',
+        'django-internationalflavor>=0.4.0,<0.5.0',
+        'django-model-utils>=3.1.2,<5.0.0',
+        'django-phonenumber-field>=3.0.1,<5.1',
+        'djangorestframework>=3.10.0,<3.13',
+        'phonenumbers>=7.0.6,<8.13.0',
+    ],
     license=easys_ordermanager.__license__,
     url=easys_ordermanager.__url__,
     download_url='',
